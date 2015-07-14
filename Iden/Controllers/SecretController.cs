@@ -14,7 +14,7 @@ namespace Iden.Controllers
         
         public ContentResult Secret()
         {
-            return Content("this is a secret");
+            return Content("this is a secret!");
         }
 
         [AllowAnonymous] //overrules the authorize at the top for this method
